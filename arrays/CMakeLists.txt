@@ -23,3 +23,7 @@ add_executable(shift shift.cpp)
 project(repetition)
 set(CMAKE_CXX_STANDARD 14)
 add_executable(repetition repetitionCounter.cpp)
+
+project(naive)
+set(CMAKE_CXX_STANDARD 14)
+add_executable(naive naive_sort.cpp)
