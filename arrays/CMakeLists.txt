@@ -35,3 +35,7 @@ add_executable(bubble_sort ordering_bubble_sort.cpp)
 project(vector)
 set(CMAKE_CXX_STANDARD 14)
 add_executable(vector vector.cpp)
+
+project(vector_bis)
+set(CMAKE_CXX_STANDARD 14)
+add_executable(vector_bis vector_bis.cpp)
