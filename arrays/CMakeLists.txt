@@ -27,3 +27,7 @@ add_executable(repetition repetitionCounter.cpp)
 project(naive)
 set(CMAKE_CXX_STANDARD 14)
 add_executable(naive naive_sort.cpp)
+
+project(bubble_sort)
+set(CMAKE_CXX_STANDARD 14)
+add_executable(bubble_sort ordering_bubble_sort.cpp)
