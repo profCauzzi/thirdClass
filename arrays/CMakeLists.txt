@@ -39,3 +39,11 @@ add_executable(vector vector.cpp)
 project(vector_bis)
 set(CMAKE_CXX_STANDARD 14)
 add_executable(vector_bis vector_bis.cpp)
+
+project(esercizio_23)
+set(CMAKE_CXX_STANDARD 14)
+add_executable(esercizio_23 esercizio_23.cpp)
+
+project(esercizio_18)
+set(CMAKE_CXX_STANDARD 14)
+add_executable(esercizio_18 esercizio_18.cpp)

@@ -31,7 +31,6 @@ int main(){
     for (int i=0; i<mio_array.size(); i++) {
         cout<<" "<< mio_array[i];
     }
-
     // inserisco all'inizio dell'array il valore -100
     mio_array.insert(mio_array.begin(),-100);
     cout << endl << endl << " dimensione di mio_array: " << mio_array.size();
