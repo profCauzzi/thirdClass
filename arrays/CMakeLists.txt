@@ -47,3 +47,7 @@ add_executable(esercizio_23 esercizio_23.cpp)
 project(esercizio_18)
 set(CMAKE_CXX_STANDARD 14)
 add_executable(esercizio_18 esercizio_18.cpp)
+
+project(struct)
+set(CMAKE_CXX_STANDARD 14)
+add_executable(struct struct.cpp)
