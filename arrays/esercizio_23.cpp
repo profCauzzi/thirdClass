@@ -11,8 +11,9 @@ void build_symmetric_array(int a[], int dim);
 
 int main(){
     cout << "Esercizio n23" << endl;
-    const int dim = 6;
-    int my_array [dim]= {1, 2, 3, 4, 5, 7};
+    const int dim = 5;
+//    int my_array [dim]= {1, 2, 3, 4, 5, 7};
+    int my_array [dim]= {8, 9, 10, 11, 12};
     print_array("Array iniziale", my_array);
     build_symmetric_array(my_array, dim);
     print_array("Array finale", my_array);
