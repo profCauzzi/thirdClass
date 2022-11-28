@@ -51,3 +51,19 @@ add_executable(esercizio_18 esercizio_18.cpp)
 project(struct)
 set(CMAKE_CXX_STANDARD 14)
 add_executable(struct struct.cpp)
+
+project(char)
+set(CMAKE_CXX_STANDARD 14)
+add_executable(char char.cpp)
+
+project(string)
+set(CMAKE_CXX_STANDARD 14)
+add_executable(string string.cpp)
+
+project(string_as_array)
+set(CMAKE_CXX_STANDARD 14)
+add_executable(string_as_array string_as_array.cpp)
+
+project(string_manipulation)
+set(CMAKE_CXX_STANDARD 14)
+add_executable(string_manipulation string_manipulation.cpp)
