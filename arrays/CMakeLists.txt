@@ -71,3 +71,24 @@ add_executable(string_manipulation string_manipulation.cpp)
 project(string_substring)
 set(CMAKE_CXX_STANDARD 14)
 add_executable(string_substring string_substring.cpp)
+
+project(pointers_intro)
+set(CMAKE_CXX_STANDARD 14)
+add_executable(pointers_intro pointers_intro.cpp)
+
+project(pointers_example_1)
+set(CMAKE_CXX_STANDARD 14)
+add_executable(pointers_example_1 pointers_example_1.cpp)
+
+
+project(pointers_memory_leak)
+set(CMAKE_CXX_STANDARD 14)
+add_executable(pointers_memory_leak pointers_memory_leak.cpp)
+
+project(pointers_functions)
+set(CMAKE_CXX_STANDARD 14)
+add_executable(pointers_functions pointers_functions.cpp)
+
+project(pointers_arrays)
+set(CMAKE_CXX_STANDARD 14)
+add_executable(pointers_arrays pointers_arrays.cpp)
