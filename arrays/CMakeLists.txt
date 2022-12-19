@@ -67,3 +67,7 @@ add_executable(string_as_array string_as_array.cpp)
 project(string_manipulation)
 set(CMAKE_CXX_STANDARD 14)
 add_executable(string_manipulation string_manipulation.cpp)
+
+project(string_substring)
+set(CMAKE_CXX_STANDARD 14)
+add_executable(string_substring string_substring.cpp)
