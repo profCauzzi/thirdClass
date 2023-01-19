@@ -92,3 +92,7 @@ add_executable(pointers_functions pointers_functions.cpp)
 project(pointers_arrays)
 set(CMAKE_CXX_STANDARD 14)
 add_executable(pointers_arrays pointers_arrays.cpp)
+
+project(oop_intro)
+set(CMAKE_CXX_STANDARD 14)
+add_executable(oop_intro oop_intro.cpp Person.cpp Person.h)
