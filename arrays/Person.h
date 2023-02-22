@@ -14,16 +14,14 @@ private:
     string surname;
     int years;
 
+
+
 public:
     Person(string name, string surname, int years){
         set_name_surname(name, surname, years);
     }
 
-    void set_name_surname(string name, string surname, int years){
-        this -> name = name;
-        this -> surname = surname;
-        this -> years = years;
-    }
+    void set_name_surname(string name, string surname, int years);
 
     string get_name(){
         return name;

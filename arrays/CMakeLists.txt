@@ -96,3 +96,11 @@ add_executable(pointers_arrays pointers_arrays.cpp)
 project(oop_intro)
 set(CMAKE_CXX_STANDARD 14)
 add_executable(oop_intro oop_intro.cpp Person.cpp Person.h)
+
+project(constructor_overloading)
+set(CMAKE_CXX_STANDARD 14)
+add_executable(constructor_overloading constructor_overloading.cpp Mark.cpp Mark.h Parallelogram.cpp Parallelogram.h Rectangle.cpp Rectangle.h)
+
+project(inheritance)
+set(CMAKE_CXX_STANDARD 14)
+add_executable(inheritance inheritance.cpp Parallelogram.cpp Parallelogram.h Rectangle.h Rectangle.cpp)
